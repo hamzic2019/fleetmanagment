@@ -159,8 +159,8 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.status-bar-item-list-name {
-    min-width: 35%;
+.status-bar-item-list {
+    min-width: 15%;
 }
 
 .status-bar-item-list-5 {

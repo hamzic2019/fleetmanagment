@@ -1,0 +1,19 @@
+.paid {
+    background-color: #62b18359;
+    color:#106533;
+    font-weight: 900;
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.unpaid {
+    background-color: #b1626259;
+    color:#651010;
+    font-weight: 900;
+    width: 75%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}

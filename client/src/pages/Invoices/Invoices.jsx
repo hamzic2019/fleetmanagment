@@ -1,4 +1,5 @@
 import React from 'react'
+import InvoiceListItem from '../../components/InvoiceListItem/InvoiceListItem'
 import './Invoices.css'
 
 const Invoices = () => {
@@ -30,39 +31,25 @@ const Invoices = () => {
           </div>
           <div className="invoices-list-invoices">
 
-          <div className="invoices-list-invoices-status-bar">
-              <p className='status-bar-item-list-name'>NAME</p>
-              <p className='status-bar-item-list'>DATE</p>
-              <p className='status-bar-item-list'>AMOUNT</p>
-              <p className='status-bar-item-list'>STATUS</p>
+                <div className="invoices-list-invoices-status-bar">
+                    <p className='status-bar-item-list' style={{width: '35%'}}>NAME</p>
+                    <p className='status-bar-item-list'>DATE</p>
+                    <p className='status-bar-item-list'>AMOUNT</p>
+                    <p className='status-bar-item-list'>STATUS</p>
 
-              <p className='status-bar-item-list-5'></p>
-          </div>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-                        <br />
-                        <h1>HELLO</h1>
-          </div>
+                    <p className='status-bar-item-list-5'></p>
+                </div>
+
+                  <InvoiceListItem />
+                  <InvoiceListItem />
+                  <InvoiceListItem />
+                  <InvoiceListItem />
+                  <InvoiceListItem />
+                  <InvoiceListItem />
+                  <InvoiceListItem />
+                       
+
+           </div>  
         </div>
     </div>
   )
