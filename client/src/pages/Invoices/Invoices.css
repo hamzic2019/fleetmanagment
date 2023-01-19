@@ -63,6 +63,7 @@
     border-bottom: 3px solid rgba(255, 0, 0, 0);
     text-decoration: none;
     color:gray;
+    cursor: pointer;
 }
 
 .active {
