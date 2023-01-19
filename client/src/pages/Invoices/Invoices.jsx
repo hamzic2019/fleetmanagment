@@ -1,12 +1,10 @@
-import {useState} from 'react'
+import React from 'react'
+import InvoiceFilterListTab from '../../components/InvoiceFilterListTab/InvoiceFilterListTab'
 import InvoiceListItem from '../../components/InvoiceListItem/InvoiceListItem'
 import './Invoices.css'
 
 const Invoices = () => {
-  const [active, setActive] = useState('All Invoices')
-
-  const handelActive = (name) => setActive(name);
-  
+console.log('INVOICESSSSS???')
   return (
     <div className='invovicesWrapper'>
         <div className="invoices-wrapper-upper">
@@ -21,29 +19,13 @@ const Invoices = () => {
 
         <div className="invoices-list">
           <div className="invoices-list-options">
-                <div className="invoices-list-options-left">
-                    <a 
-                      onClick={() => handelActive('All Invoices')} 
-                      className={active === 'All Invoices' ? 'active': ''}
-                    >All Invoices</a>
-                    <a 
-                      onClick={() => handelActive('Paid')} 
-                      className={active === 'Paid' ? 'active': ''}
-                    >Paid</a>
-                    <a 
-                      onClick={() => handelActive('Unpaid')} 
-                      className={active === 'Unpaid' ? 'active': ''}
-                    >Unpaid</a>
-                    <a 
-                      onClick={() => handelActive('Archived')} 
-                      className={active === 'Archived' ? 'active': ''}
-                    >Archived</a>
-                    
-                </div>
+                
+                <InvoiceFilterListTab />
+
                 <div className="invoices-list-options-right">
                     <button>Create new invoice</button>
                 </div>
-                <hr />
+          
           </div>
           <div className="invoices-list-invoices">
 

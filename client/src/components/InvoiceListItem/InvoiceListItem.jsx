@@ -3,6 +3,7 @@ import Status from '../Status/Status'
 import './InvoiceListItem.css'
 
 const InvoiceListItem = () => {
+  
   return (
         <div className='invoiceListItemWrapper'>
             <p className='invoiceListItemWrapperItem' style={{width: '35%'}}>Zepter Internation AG</p>

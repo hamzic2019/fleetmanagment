@@ -47,31 +47,6 @@
 
 }
 
-.invoices-list-options-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-}
-
-.invoices-list-options-left a {
-    font-size: 1.4em;
-    font-weight: 900;
-    margin: 0 15px 0 0;
-    padding: 10px 0 15px 0;
-    border-bottom: 3px solid rgba(255, 0, 0, 0);
-    text-decoration: none;
-    color:gray;
-    cursor: pointer;
-}
-
-.active {
-    padding: 10px 0 10px 0;
-
-    border-bottom: 3px solid rgb(123, 6, 152)!important;
-    z-index: 1;
-}
 
 hr {
     position: absolute;
