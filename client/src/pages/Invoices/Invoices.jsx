@@ -29,6 +29,15 @@ const Invoices = () => {
                 <hr />
           </div>
           <div className="invoices-list-invoices">
+
+          <div className="invoices-list-invoices-status-bar">
+              <p className='status-bar-item-list-name'>NAME</p>
+              <p className='status-bar-item-list'>DATE</p>
+              <p className='status-bar-item-list'>AMOUNT</p>
+              <p className='status-bar-item-list'>STATUS</p>
+
+              <p className='status-bar-item-list-5'></p>
+          </div>
                         <br />
                         <h1>HELLO</h1>
                         <br />
