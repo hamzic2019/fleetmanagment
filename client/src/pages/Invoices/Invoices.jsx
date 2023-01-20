@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import InvoiceFilterListTab from '../../components/InvoiceFilterListTab/InvoiceFilterListTab'
 import InvoiceListItem from '../../components/InvoiceListItem/InvoiceListItem'
 import './Invoices.css'
@@ -23,8 +24,10 @@ const Invoices = () => {
                 <InvoiceFilterListTab />
 
                 <div className="invoices-list-options-right">
-                    <button>Create new invoice</button>
+                    <Link to="/invoices/new" className='link'>Create new invoice</Link>
                 </div>
+
+                <hr />
           
           </div>
           <div className="invoices-list-invoices">

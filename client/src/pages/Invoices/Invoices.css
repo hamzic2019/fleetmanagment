@@ -58,10 +58,18 @@ hr {
     z-index: 0;
 }
 
+.invoices-list-options-right {
+    height: 60px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-.invoices-list-options-right button {
+.invoices-list-options-right .link {
     width: 200px;
-    padding: 6px 20px;
+    padding: 10px 10px;
     font-size: 18px;
 
     border-radius: 5px;
@@ -72,11 +80,13 @@ hr {
     background-color: #3498db;
     box-shadow: 1px 1px 2px gray;
     margin:5px 5px 10px 10px;
+
+    text-decoration: none;
 }
 
-.invoices-list-options-right button:hover {
+.invoices-list-options-right .link:hover {
     width: 200px;
-    padding: 6px 20px;
+    padding: 10px 10px;
     font-size: 18px;
 
     border-radius: 5px;
