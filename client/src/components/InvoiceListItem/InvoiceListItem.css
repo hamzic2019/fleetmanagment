@@ -32,32 +32,32 @@
 
 .invoiceListItemWrapper-div-btn-edit {
     height:60%;
-    width: 40%;
+    width: 35%;
     align-self: center;
     justify-self: center;
     background-color: #f39c12;
     border:0px;
     color:white;
     font-weight: 900;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .invoiceListItemWrapper-div-btn-edit:hover {
     background-color: #cf8612;
 }
 
-.invoiceListItemWrapper-div-btn-rmv {
+.invoiceListItemWrapper-div-btn-dwld {
     height:60%;
-    width: 50%;
+    width: 60%;
     align-self: center;
     justify-self: center;
     border:0px;
     color:white;
     font-weight: 900;
-    font-size: 1.1em;
-    background-color: #e74c3c!important;
+    font-size: 1em;
+    background-color: #3ce77e!important;
 }
 
-.invoiceListItemWrapper-div-btn-rmv:hover {
-    background-color: #c63c2c!important;
+.invoiceListItemWrapper-div-btn-dwld:hover {
+    background-color: #2fc568!important;
 }

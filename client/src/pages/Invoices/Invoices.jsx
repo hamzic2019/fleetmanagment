@@ -4,7 +4,7 @@ import InvoiceListItem from '../../components/InvoiceListItem/InvoiceListItem'
 import './Invoices.css'
 
 const Invoices = () => {
-console.log('INVOICESSSSS???')
+
   return (
     <div className='invovicesWrapper'>
         <div className="invoices-wrapper-upper">
